@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 250px;
+}
+
+/* style the header div and h1 */
+.header {
+    padding: 25px;
+    margin: 5px;
+    background-color: brown;
+    align-items: center;
+}
+
+.header > h1 {
+    text-align: center;
+    color: white;
+}
+
+#input {
+    margin-left: 75px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 75%;
+    float: auto;
+    border-radius: .5px;
+    font-size: medium;
+}
+
+/* styling the button */
+.addButton {
+    margin: 0;
+    padding: 15px;
+    width: 15px;
+    background-color: #d9d3d2;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: white;
+}
+
+/* margins and paddings from the list*/
+ul {
+    margin: 5px;
+    padding: 0;
+}
+
+ul >li {
+    cursor: pointer;
+    position: relative;
+    padding: auto;
+    font-size: 18px;
+    list-style-type: none;
+    font-style: normal;
+    background: #9ce6ae;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd){
+    background: #d2d6d3;
+}
+
+ul li:hover {
+    background: whitesmoke;
+}
+
+/*style the close button */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
